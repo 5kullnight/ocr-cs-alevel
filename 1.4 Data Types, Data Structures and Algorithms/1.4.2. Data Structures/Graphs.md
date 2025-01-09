@@ -1,3 +1,5 @@
+Tags: #subnode 
+
 A **graph** consists of a set of **vertices (nodes)** connected by **edges (arcs)**. Graphs are commonly used in computer science to model networks, relationships, or paths.
 
 ---

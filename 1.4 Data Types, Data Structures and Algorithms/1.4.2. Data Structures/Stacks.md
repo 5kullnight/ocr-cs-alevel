@@ -1,3 +1,5 @@
+Tags: #subnode 
+
 A **stack** is a data structure that follows the Last In, First Out (LIFO) principle, meaning the last element added to the stack is the first one to be removed. Stacks are crucial in computer science for various operations, such as reversing actions, managing function calls, and handling undo operations in applications.
 
 ---
