@@ -1,0 +1,7 @@
+- Simplified machine code using **mnemonics** (e.g., ADD for addition).
+- Instructions divided into:
+    - **Operand**: Data/address for the operation.
+    - **Opcode**: Operation type.
+- Example:
+	- **Machine Code**: `01000101 00110101`  
+	- **Operation**: ADD, Operand specifies data/address.
