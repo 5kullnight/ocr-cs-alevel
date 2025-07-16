@@ -29,29 +29,20 @@
 ![[Pasted image 20250603200228.png]]
 ---
 # 3. Contemporary Processing
-- **Hybrid Approach**: Modern CPUs combine elements of both architectures:
-    - **Von Neumann**: Used when working with **main memory** to store data and instructions.
-    - **Harvard**: Used for **cache memory**, splitting it into:
-        - **Instruction cache**: Stores frequently used instructions.
-        - **Data cache**: Stores frequently accessed data.
-- **Benefits**:
-    - Leverages the simplicity of Von Neumann for general tasks.
-    - Utilizes the speed of Harvard architecture for cache operations.
-- **Drawbacks:**
-	- **Increased Complexity**:
-	    - The combination of Von Neumann and Harvard architectures complicates design and debugging due to the need for additional circuitry and management of separate caches.
-	- **Cache Coherency Issues**:
-	    - Maintaining consistency between instruction and data caches can lead to errors if changes in data are not reflected immediately, potentially causing the CPU to execute outdated instructions.
-- **Example**:
-    - A **smartphone CPU**:
-        - Von Neumann architecture handles general apps.
-        - Harvard architecture ensures quick access to frequently used functions like camera operations.
----
-### Key Differences:
-
-|**Aspect**|**Von Neumann**|**Harvard**|
-|---|---|---|
-|**Memory**|Shared for data and instructions|Separate for data and instructions|
-|**Execution Speed**|Slower (one at a time)|Faster (parallel fetches)|
-|**Cost**|Cheaper|More expensive|
-|**Use Case**|General-purpose computing|Embedded systems|
+- **Definition**: Modern CPUs use advanced techniques to improve performance and efficiency beyond the basic Von Neumann model.
+- **Key Techniques:
+	1. Simultaneous Multithreading (SMT)
+		- Runs two threads per core by duplicating fetch/decode units.
+		- Better core utilization (execution unit switches between threads).
+		- Two physical cores > one core with SMT.
+	2. Out-of-Order Execution
+		- Executes instructions ahead of time if resources are free (non-dependent).
+		- Reduces idle time in the CPU pipeline.
+	3. Branch Prediction
+		- Predicts the path of conditional branches (e.g., if statements).
+		- Minimizes pipeline stalls (avoids clearing the pipeline).
+	4. Variable Clock Speed
+		- Dynamic Scaling: Temporarily boosts speed for intensive tasks ("turbo boost").
+		- Power Saving: Reduces clock speed in portable devices to save battery.
+	5. Power Conservation
+		- Shuts off unused circuitry (e.g., GPU parts when not needed).
