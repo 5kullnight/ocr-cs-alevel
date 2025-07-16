@@ -11,6 +11,7 @@ Used to **send information out** from the computer.
     - **Speakers**: Play audio from the computer.
     - **Printers**: Print text or images onto paper.
     - **Projector**: Displays video content on a larger screen.
+    - **Monitor**: Displays the image rendered by computer
 # Dual Function Devices:
 Some devices act as **both input and output**:
 - **Example**:

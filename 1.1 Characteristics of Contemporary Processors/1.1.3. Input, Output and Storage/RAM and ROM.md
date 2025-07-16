@@ -1,21 +1,13 @@
 # RAM (Random Access Memory):
-- **Purpose**: Temporary storage for data and programs currently in use by the computer.
+- **Description**: larger, volatile and editable storage that temporarily holds instruction and data. It operates at a much faster speed than most secondary storage devices.
 - **Key Characteristics**:
     - **Fast**: Faster than secondary storage.
     - **Volatile**: Loses data when power is turned off.
-    - **Capacity**: Typically 4GB–8GB in most systems, much smaller than secondary storage.
+    - **Capacity**: Typically 8GB–16GB in most systems, much smaller than secondary storage.
     - **Usage**: Enhances speed and performance during program execution.
 # ROM (Read-Only Memory):
-- **Purpose**: Stores permanent, unchangeable instructions, such as the computer’s start-up (bootstrap) routine.
+- **Description**: small read-only memory located on the motherboard (it cannot be altered so there is no chance of the OS being accidently or maliciously changed). It is non-volatile, containing the very first bootstrap instructions for the computer and is quick to start up.
 - **Key Characteristics**:
     - **Non-Volatile**: Retains data even when powered off.
     - **Unmodifiable**: Contents are programmed once and cannot be altered.
     - **Usage**: Essential for fixed, critical instructions needed for system boot-up.
-# Comparison:
-
-|**Feature**|**RAM**|**ROM**|
-|---|---|---|
-|**Speed**|Fast|Comparatively slower|
-|**Volatility**|Volatile (data lost when off)|Non-volatile (data retained)|
-|**Modifiability**|Read/Write|Read-Only|
-|**Use Case**|Temporary storage for running tasks|Permanent instructions (e.g., boot-up code)|
