@@ -1,19 +1,17 @@
-#### **1. Von Neumann Architecture**
+# 1. Von Neumann Architecture:
 - **Description**:
-    - Uses a **single memory** for both data and instructions.
+    - Uses a **single memory** for both data and instructions e.g. single control unit
     - Data and instructions are transferred along a **shared data bus**.
     - Built on the **stored program concept**, where programs and data are stored in memory.
-    - Includes components like the **ALU**, **control unit**, **registers**, and **memory units**.
+    - Uses FDE cycle
 - **Advantages**:
     - **Cheaper to develop**: The control unit is simpler, reducing costs.
     - **Program optimization**: Programs can be minimized in size.
 - **Limitation**:
     - **Bottleneck issue**: Only one data or instruction can travel at a time along the bus, slowing performance.
-- **Example**:
-    - Writing a document in a text editor (e.g., Microsoft Word):
-        - The instructions (to type, save, format text) and data (text content) are stored in the same memory.
+![[Pasted image 20250603200214.png]]
 ---
-#### **2. Harvard Architecture**
+# 2. Harvard Architecture
 - **Description**:
     - Uses **separate memory** for data and instructions.
     - Different buses are used for data and instruction transfer, allowing simultaneous access.
@@ -24,16 +22,13 @@
 - **Drawbacks:**
 	- **Higher Cost**:
 	    - The use of separate memory for data and instructions requires more hardware components, making it more expensive to develop and manufacture.
-	- **Limited Flexibility**:
+	- **Inefficient Memory Utilization**:
 	    - Having dedicated memory for instructions and data can lead to inefficiencies if one type of memory becomes full, while the other has unused space, resulting in wasted resources.
 - **Use Case**:
-    - Embedded processors in devices like **microwave ovens**, **TV remotes**, or **medical devices** often use Harvard architecture to maximize efficiency.
-- **Example**:
-    - A **washing machine** controller:
-        - Instructions (how to wash) are stored in a read-only memory.
-        - Data (water temperature, load weight) is stored in a read-write memory.
+    - Embedded processors in devices like **microwave ovens**, TV remotes, or **medical devices** often use Harvard architecture to maximize efficiency.
+![[Pasted image 20250603200228.png]]
 ---
-#### **3. Contemporary Processing**
+# 3. Contemporary Processing
 - **Hybrid Approach**: Modern CPUs combine elements of both architectures:
     - **Von Neumann**: Used when working with **main memory** to store data and instructions.
     - **Harvard**: Used for **cache memory**, splitting it into:
@@ -52,7 +47,7 @@
         - Von Neumann architecture handles general apps.
         - Harvard architecture ensures quick access to frequently used functions like camera operations.
 ---
-### **Key Differences**
+### Key Differences:
 
 |**Aspect**|**Von Neumann**|**Harvard**|
 |---|---|---|

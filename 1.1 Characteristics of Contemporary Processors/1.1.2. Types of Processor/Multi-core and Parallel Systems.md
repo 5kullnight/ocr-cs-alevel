@@ -12,8 +12,7 @@ Modern computers typically have **multicore CPUs** and often include parallel pr
     **Don't mix up with**:
 	- **Pipelining** can be thought of as an assembly line where each worker (stage) performs a specific task on different products (instructions) at the same time.
 	- **Parallel systems** can be likened to multiple assembly lines running simultaneously, each handling different products (tasks) concurrently.
----
-### **Graphics Processing Unit (GPU)**
+# Graphics Processing Unit (GPU):
 - **Purpose**:
 	- In the early days of computing, CPUs struggled to handle the increasing demands of graphics rendering and complex mathematical computations needed for 3D graphics. As video games and graphic applications grew more sophisticated, dedicated graphics cards emerged to offload these tasks. This led to the development of GPUs, which excelled at parallel processing and could perform numerous calculations simultaneously. Over time, GPUs evolved from specialized graphics processors to powerful coprocessors, complementing CPUs and significantly enhancing performance in not only graphics but also scientific computing, machine learning, and artificial intelligence.
     - Designed for **parallel processing**, making it ideal for repetitive, computation-heavy tasks like **graphics rendering**, **image processing**, or **machine learning**.
@@ -24,7 +23,6 @@ Modern computers typically have **multicore CPUs** and often include parallel pr
 **Example**:
 - **Gaming**: Rendering complex 3D environments.
 - **AI and Machine Learning**: Training models quickly by processing large datasets in parallel.
----
 ### **Key Difference**
 
 |**Aspect**|**Multi-Core Systems**|**Parallel Systems**|**GPU**|

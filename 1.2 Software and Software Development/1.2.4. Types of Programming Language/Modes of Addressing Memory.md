@@ -1,11 +1,8 @@
 Memory addressing modes specify how the operand of a machine code instruction should be interpreted. By leveraging different addressing modes, a program can flexibly access and manipulate memory locations.
-
----
-#### **Structure of Machine Code Instruction**
+# Structure of Machine Code Instruction:
 1. **Opcode**: Defines the operation to be performed (e.g., `ADD`, `SUB`).
 2. **Operand**: Specifies the value or location of the value for the operation.
----
-### **Addressing Modes**
+# Addressing Modes:
 1. **Immediate Addressing**
     - The operand is the actual value to be used in the operation.
     - Simplest form of addressing since the value is directly embedded in the instruction.
@@ -30,8 +27,7 @@ Memory addressing modes specify how the operand of a machine code instruction sh
 	- Example:
 		`LDA 10(x)`
 		(Load the value at the address calculated by `10 + X`, where `X` is the index register value)
----
-### **Comparison of Addressing Modes**
+# Comparison of Addressing Modes:
 
 | **Addressing Mode**  | **Operand Represents**              | **Use Case**                                       |
 | -------------------- | ----------------------------------- | -------------------------------------------------- |
@@ -40,8 +36,7 @@ Memory addressing modes specify how the operand of a machine code instruction sh
 | Indirect Addressing  | Address of a register with the data | Dynamic data access, implementing pointers.        |
 | Indexed Addressing   | Base address + index offset         | Array processing, sequential data access.          |
 
----
-### **Example Program in LMC Using Direct Addressing**
+# Example Program in LMC Using Direct Addressing:
 `INP          // Input a value into the Accumulator`
 `STA num      // Store the value at address 'num'`
 `LDA num      // Load the value at address 'num'`
@@ -49,13 +44,10 @@ Memory addressing modes specify how the operand of a machine code instruction sh
 `OUT          // Output the result`
 `HLT          // Halt the program`
 `num DAT      // Reserve a memory location for 'num'`
-
----
-### **Advantages of Addressing Modes**
+# Advantages of Addressing Modes:
 - **Efficiency**: Allows quick access to data and reduces the complexity of instructions.
 - **Flexibility**: Enables dynamic programming techniques like looping and array manipulation.
 - **Versatility**: Supports a wide range of operations by interpreting operands differently.
----
-### **Disadvantages**
+# Disadvantages:
 - **Complexity**: More advanced modes like indirect or indexed addressing can be harder to implement and understand.
 - **Processor-Specific**: Addressing modes vary between different CPU architectures, making portability difficult.

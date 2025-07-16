@@ -1,23 +1,20 @@
 Memory management is a crucial function of the operating system that ensures efficient sharing and utilization of computer memory among multiple programs and applications. Given that main memory (RAM) may not be large enough to accommodate all running programs simultaneously, memory management employs techniques such as **paging**, **segmentation**, and **virtual memory** to optimize memory use.
-
----
-#### **1. Paging**
-- **Definition**: Paging divides main memory into fixed-size units called **pages**. Programs are also broken down into pages of the same size. Using physical division.
-- **Functionality**: When a program is executed, its pages can be loaded into and swapped out of main memory as needed, allowing for better memory allocation without fragmentation.
----
-#### **2. Segmentation**
-- **Definition**: Segmentation involves dividing memory into **logical segments** of varying sizes. Each segment corresponds to different parts of a program, such as functions, data structures, or control flows. Uses logical division.
+# 1. Paging:
+- **Definition**: Paging physically divides main memory into fixed-size frames. Programs are also split into pages of the same size. 
+- **Functionality**: When a program is executed, its pages can be loaded into and swapped out of main memory as needed, allowing for better memory allocation without fragmentation (inefficient use of memory that can occur when memory is allocated and deallocated in variable-sized blocks).
+![[Pasted image 20250603202702.png]]
+# 2. Segmentation:
+- **Definition**: Divides memory into **logical segments** of varying sizes, each representing a functional unit of a program (e.g., code, stack, heap, or data structures). Segments are allocated dynamically based on program needs.
 - **Functionality**: Segments are allocated based on the program's structure, making it easier to manage and access program components logically. This approach allows for a more intuitive way to manage memory, reflecting the actual usage patterns of the program.
----
-#### **3. Virtual Memory**
+![[Pasted image 20250603202712.png]]
+# 3. Virtual Memory:
 - **Definition**: Virtual memory extends the available memory by using a portion of the hard disk as if it were RAM. It allows a system to run larger applications than the physical memory could normally support.
 - **Functionality**: When RAM is full, sections of programs that are not currently in use are temporarily moved to **virtual memory** through paging, freeing up RAM for active programs. This mechanism improves multitasking capabilities.
----
-#### **Disk Thrashing**
+### Disk Thrashing:
 - **Issue**: A potential problem associated with these memory management techniques is **disk thrashing**.
     - **Definition**: Disk thrashing occurs when the operating system spends more time swapping pages between the hard disk and RAM than executing programs, causing a significant slowdown or freezing of the system.
     - **Cause**: It usually happens when there is insufficient physical memory, leading to excessive paging and frequent access to the hard disk.
-### Similarities and Differences Between Paging and Segmentation
+### Similarities and Differences Between Paging and Segmentation:
 
 |**Category**|**Aspect**|**Paging**|**Segmentation**|
 |---|---|---|---|

@@ -49,3 +49,20 @@ The following operations can be performed on a queue:
 - **Task scheduling** in operating systems.
 - **Buffer management** for data streams, such as keyboard inputs.
 - **Handling requests** in web servers.
+### Similarities & differences:
+| **Aspect**                 | Similiraties                                                                 |     |
+| -------------------------- | ---------------------------------------------------------------------------- | --- |
+| **Linear data structures** | Both are linear data structures that store data in a sequence.               |     |
+| **Dynamic or static**      | Both can be implemented using arrays (static) or linked lists (dynamic).     |     |
+| **Access is restricted**   | You can only insert/remove from specific ends (not randomly like in arrays). |     |
+| **Used in algorithms**     | Both are used widely in various algorithms and real-life computing tasks.    |     |
+| **Pointer-based access**   | Both use pointers (or indices) to track position of elements.                |     |
+
+|**Aspect**|**Stack** (LIFO)|**Queue** (FIFO)|
+|---|---|---|
+|**Access Order**|Last In, First Out (LIFO) – last item added is removed first|First In, First Out (FIFO) – first item added is removed first|
+|**Insertion Point**|Elements are added at the **top**|Elements are added at the **rear (end)**|
+|**Removal Point**|Elements are removed from the **top**|Elements are removed from the **front**|
+|**Number of Pointers**|Usually uses **one pointer** (top)|Uses **two pointers** (front and rear)|
+|**Use Cases**|Function calls, undo features, backtracking|Task scheduling, queues in OS or networks|
+|**Complexity**|Easier to implement|Slightly more complex, especially circular queues|

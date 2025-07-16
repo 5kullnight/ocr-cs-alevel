@@ -1,7 +1,7 @@
 Tags: #subnode 
 
 **Definition:**  
-A tuple is an immutable, ordered collection of elements. Unlike lists, tuples cannot be modified once they are created. They can store elements of different data types and are often used when a collection of values should remain constant.
+A tuple is like a container that holds a group of items in a specific order. Once you create it, you cannot change what’s inside (unlike a list, where you can add, remove, or modify items). Unlike lists, tuples cannot be modified once they are created. They can store elements of different data types and are often used when a collection of values should remain constant.
 
 ---
 ### **Key Characteristics of Tuples**

@@ -1,7 +1,7 @@
 When developing software, it is common to use external code such as subroutines and libraries. These external pieces of code help streamline development and enhance functionality. Linkers and loaders play essential roles in incorporating and managing this external code, while libraries provide ready-to-use functions.
 
----
-### **1. Linkers**
+"Lazy Lizards Love Libraries"
+# 1. Linkers:
 **Definition**: A linker is software that combines different pieces of code (modules and libraries) into a single executable file. There are two main types of linkers:
 - **Static Linkers**:
     - **Process**: They add all necessary modules and libraries directly into the main executable file during the linking process.
@@ -18,14 +18,17 @@ When developing software, it is common to use external code such as subroutines 
         - Updates to libraries can be made without recompiling the program, allowing for improved functionality and security.
     - **Disadvantages**:
         - Requires that the necessary libraries be available on the system where the program runs.
----
-### **2. Loaders**
+
+|Type|What it does|Pros|Cons|
+|---|---|---|---|
+|**Static**|Inserts all needed library code directly into your program|Runs without external files; version is fixed|Bigger file, doesn’t update when libraries change|
+|**Dynamic**|Just adds references to external libraries|Smaller file, libraries can be updated|Needs libraries to exist on target system|
+# 2. Loaders:
 **Definition**: A loader is a program provided by the operating system that loads executable files into memory and prepares them for execution.
 - **Function**:
     - When a program is run, the loader retrieves the necessary modules and libraries from the specified memory locations (whether static or dynamic).
     - The loader ensures that all referenced code is available and properly allocated in memory before execution begins.
----
-### **3. Use of Libraries**
+# 3. Use of Libraries:
 **Definition**: Libraries are pre-compiled collections of code that provide ready-to-use functions, procedures, and subroutines. They can be incorporated into programs using either static or dynamic linking.
 - **Advantages**:
     - **Time-Saving**: Libraries eliminate the need for developers to write code for common functions from scratch, allowing them to focus on more complex aspects of their applications.

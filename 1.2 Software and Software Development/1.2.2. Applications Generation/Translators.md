@@ -1,7 +1,5 @@
 A translator is a program that converts high-level source code into low-level object code, preparing it for execution by a computer. There are three primary types of translators, each with distinct characteristics and functions:
-
----
-### **1. Compiler**
+# 1. Compiler:
 - **Function**: Compilers translate high-level code into machine code in one complete process.
 - **Process**:
     - The compiler analyzes the entire code, performs a series of checks, and reports any errors found.
@@ -14,11 +12,11 @@ A translator is a program that converts high-level source code into low-level ob
 **Disadvantages**:
 - Initial compilation takes longer, especially for large programs.
 - Requires recompilation for any changes made to the source code.
----
-### **2. Interpreter**
+# 2. Interpreter:
 - **Function**: Interpreters translate and execute code line-by-line.
 - **Process**:
-    - The interpreter reads a line of code, executes it, and halts with an error if an issue arises.
+    - The interpreter reads a line of code, scanning for errors as it goes, until it reaches a syntax error or the end of the program. 
+    - It is compatible across different platforms.
     - This allows immediate feedback, making it easier to test and debug.
 - **Output**: Interpreted code needs an interpreter to execute on any device, but it can run on various platforms as long as the appropriate interpreter is available.
 **Advantages**:
@@ -27,8 +25,7 @@ A translator is a program that converts high-level source code into low-level ob
 **Disadvantages**:
 - Slower execution compared to compiled code because each line is translated every time the program runs.
 - Continual dependency on the interpreter for execution.
----
-### **3. Assembler**
+# 3. Assembler:
 - **Assembly Code**:
     - Assembly code is considered low-level programming, being just above machine code in the abstraction hierarchy.
     - It is specific to the architecture of the processor, with instructions tailored to its instruction set.

@@ -1,30 +1,29 @@
 Software development methodologies define the process and structure for planning, designing, developing, and maintaining software. Each methodology has its own strengths and weaknesses and is suited to specific types of projects. Below is a summary of the key methodologies and their characteristics:
+# Software Development Life Cycle (SDLC):
+**Stages of SDLC**:
+1. **Analysis**:
+    - Stakeholder requirements are gathered to define the system’s needs.
+    - Strengths and weaknesses of the current solution are analyzed.
+2. **Design**:
+    - Inputs, outputs, security, hardware, and the user interface are designed.
+    - A test plan is also prepared.
+3. **Development**:
+    - The system is broken into modules for programming by teams.
+4. **Testing**:
+    - Different testing methods ensure functionality:
+	    - **Alpha Testing**: Performed by the development team to fix initial bugs.
+	    - **Beta Testing**: Conducted by end-users for feedback.
+	    - **White Box Testing**: Tests internal program structure. Dry source code runs. Trace tables. Checking every possible condition if they are right.
+	    - **Black Box Testing**: Tests inputs and outputs without knowing the internal structure.
+5. **Implementation**:
+	- The software is installed in the user environment.
+6. **Evaluation**:
+    - The system is evaluated for robustness, reliability, portability, and maintainability.
+7. **Maintenance**:
+    - Updates are made to address bugs, improve performance, or fix security issues.
 
----
-### **Software Development Life Cycle (SDLC)**
-1. **Stages of SDLC**:
-    - **Analysis**:
-        - Stakeholder requirements are gathered to define the system’s needs.
-        - Strengths and weaknesses of the current solution are analyzed.
-    - **Design**:
-        - Inputs, outputs, security, hardware, and the user interface are designed.
-        - A test plan is also prepared.
-    - **Development**:
-        - The system is broken into modules for programming by teams.
-    - **Testing**:
-        - Different testing methods ensure functionality:
-            - **Alpha Testing**: Performed by the development team to fix initial bugs.
-            - **Beta Testing**: Conducted by end-users for feedback.
-            - **White Box Testing**: Tests internal program structure.
-            - **Black Box Testing**: Tests inputs and outputs without knowing the internal structure.
-    - **Implementation**:
-        - The software is installed in the user environment.
-    - **Evaluation**:
-        - The system is evaluated for robustness, reliability, portability, and maintainability.
-    - **Maintenance**:
-        - Updates are made to address bugs, improve performance, or fix security issues.
----
-### **1. Waterfall Model**
+"WAXy SPRay" (Waterfall, Agile, XP, Spiral, RAD)
+# 1. Waterfall Model:
 - **Description**: A traditional, sequential approach where each stage must be completed before the next begins.
 - **Key Features**:
     - Stages include analysis, design, development, testing, implementation, and evaluation.
@@ -35,8 +34,7 @@ Software development methodologies define the process and structure for planning
 - **Disadvantages**:
     - Inflexible to changes; any modifications require revisiting all prior stages.
     - Limited user feedback during development.
----
-### **2. Agile Methodologies**
+# 2. Agile Methodologies:
 - **Description**: A flexible approach where development is iterative and sections of the system are developed in parallel.
 - **Key Features**:
     - Prototypes are delivered and improved iteratively.
@@ -48,8 +46,7 @@ Software development methodologies define the process and structure for planning
 - **Disadvantages**:
     - Less formal documentation may lead to difficulties in maintenance.
     - May be challenging for teams not familiar with agile principles.
----
-### **3. Extreme Programming (XP)**
+# 3. Extreme Programming (XP):
 - **Description**: An agile model emphasizing collaboration between programmers and end-users.
 - **Key Features**:
     - End-users specify system requirements through "user stories."
@@ -61,8 +58,7 @@ Software development methodologies define the process and structure for planning
 - **Disadvantages**:
     - Limited documentation.
     - May not be suited for projects requiring extensive long-term records.
----
-### **4. Spiral Model**
+# 4. Spiral Model:
 - **Description**: A risk-focused model that emphasizes iteration and evaluation.
 - **Key Features**:
     - Four stages: requirement analysis, risk mitigation, development and testing, and evaluation.
@@ -73,8 +69,7 @@ Software development methodologies define the process and structure for planning
 - **Disadvantages**:
     - Expensive due to the need for risk assessors.
     - Complex and not suited for small projects.
----
-### **5. Rapid Application Development (RAD)**
+# 5. Rapid Application Development (RAD):
 - **Description**: A methodology that emphasizes quick development using prototypes.
 - **Key Features**:
     - User feedback drives iterative improvement of prototypes.
@@ -86,15 +81,12 @@ Software development methodologies define the process and structure for planning
 - **Disadvantages**:
     - Frequent changes can lead to inefficient code.
     - May require skilled developers familiar with the iterative approach.
----
-### **Summary of Methodologies**
+### Summary of Methodologies:
 
-|**Methodology**|**Best For**|**Key Features**|**Drawbacks**|
-|---|---|---|---|
-|**Waterfall**|Small, well-defined projects|Sequential stages; limited flexibility|Inflexible to changes|
-|**Agile**|Dynamic, fast-evolving needs|Iterative, user-focused development|Less formal documentation|
-|**Extreme Programming**|User-driven, high-quality code|Paired programming; iterative "user stories"|Limited documentation|
-|**Spiral**|Risk-heavy, large projects|Risk assessment; iterative testing|Expensive and complex|
-|**RAD**|Unclear requirements|Quick prototype iterations; user feedback|Inefficient code from frequent changes|
-
-Selecting the right methodology depends on the project’s size, complexity, and the flexibility needed for evolving requirements.
+| Method                       | Core Idea                              | Best For               | **Drawbacks**                          |
+| ---------------------------- | -------------------------------------- | ---------------------- | -------------------------------------- |
+| **Waterfall**                | Step-by-step stages (linear)           | Small, stable projects | Inflexible to changes                  |
+| **Agile**                    | Iterative, fast, user-focused          | Changing needs         | Less formal documentation              |
+| **Extreme Programming (XP)** | Agile + strict teamwork & code quality | Collaborative coding   | Limited documentation                  |
+| **Spiral**                   | Iterative + risk evaluation            | Big, risky projects    | Expensive and complex                  |
+| **RAD**                      | Quick prototypes + user feedback       | Unclear requirements   | Inefficient code from frequent changes |

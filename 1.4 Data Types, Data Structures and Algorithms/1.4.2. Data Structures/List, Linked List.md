@@ -1,9 +1,16 @@
 Tags: #subnode 
 
-A **linked list** is a dynamic data structure used to store an ordered sequence of items. Unlike arrays, linked lists do not require contiguous memory locations, allowing for flexible and efficient memory management.
+A **linked list** is a dynamic abstract data structure, where each node consists of data and pointer and each node points to the next. Unlike arrays, linked lists do not require contiguous memory locations, allowing for flexible and efficient memory management.
 
 ---
 ### **Structure of a Linked List Node**
+- Composed of ‘nodes’
+- Each node is composed of two parts
+	- The data (which may be a complex data structure)
+	- A pointer (the index) of the next node
+- A start pointer identifies the first node in the list
+- A nextfree pointer shows the index of the next free space in the array
+
 Each **node** in a linked list consists of two fields:
 1. **Data Field:** Stores the value of the item.
 2. **Pointer Field:** Contains the memory address (pointer) of the next node in the sequence.

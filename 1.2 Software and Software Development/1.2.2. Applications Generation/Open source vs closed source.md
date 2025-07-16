@@ -1,7 +1,5 @@
 Source code is the human-readable set of instructions written by a programmer. It is the foundation upon which software is built and is transformed into machine-readable object code through a process called compilation. The accessibility of source code plays a crucial role in how software is categorized and used, particularly in distinguishing between open source and closed source software.
-
----
-### **Open Source vs. Closed Source Software**
+# Open Source vs. Closed Source Software:
 
 |**Aspect**|**Open Source**|**Closed Source**|
 |---|---|---|
@@ -9,8 +7,7 @@ Source code is the human-readable set of instructions written by a programmer. I
 |**Advantages**|- Can be modified and improved by anyone  <br>- Thorough, regular, and well-tested updates  <br>- Technical support from an online community  <br>- Can be modified and sold on|- Company owning the software provides expert support and user manuals.  <br>- High levels of security as developed professionally.|
 |**Disadvantages**|- Support available online may be insufficient or incorrect.  <br>- No user manuals.|- License restricts how many people can use the software at once.  <br>- Lower security as it may not be developed in a controlled environment.  <br>- Users cannot modify and improve software themselves.|
 
----
-### **Considerations for Choosing Software**
+# Considerations for Choosing Software:
 When deciding between open source and closed source software, users should evaluate the following factors:
 1. **Costs**:
     - **Open Source**: Generally free to use, but may involve costs for implementation, maintenance, and training staff.

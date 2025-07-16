@@ -1,8 +1,6 @@
 Object-Oriented Programming (OOP) is a paradigm based on the concept of **objects**, which combine **state** (data) and **behavior** (functions or methods). This approach offers a modular structure that simplifies software development and maintenance.
-
----
-### **Key Concepts in OOP**
-#### 1. **Class**
+# Key Concepts in OOP:
+### 1. Class:
 - A **class** is a blueprint or template for creating objects.
 - It defines:
     - **Attributes**: Properties that describe the state of an object.
@@ -20,8 +18,7 @@ class Library:
     def remove_book(self):
         self.number_of_books -= 1
 ```
----
-#### 2. **Object**
+### 2. Object:
 - An **object** is an instance of a class, created through a process called **instantiation**.
 - Objects share the structure and behavior defined in their class.
 Example:
@@ -29,8 +26,7 @@ Example:
 library1 = Library(1000, 20)  # Create an object of Library class
 library1.add_book()  # Increases the book count
 ```
----
-#### 3. **Encapsulation**
+### 3. Encapsulation:
 - Encapsulation restricts direct access to an object’s attributes.
 - Attributes are declared as **private**, and **getters** and **setters** are used to access or modify them.
 Example:
@@ -47,8 +43,7 @@ class Book:
         self.__title = new_title
 
 ```
----
-#### 4. **Inheritance**
+### 4. Inheritance:
 - A **subclass** (child class) inherits the attributes and methods of a **superclass** (parent class).
 - This promotes code reuse and modularity.
 Example:
@@ -59,8 +54,7 @@ class Biography(Book):
         self.subject = subject
 
 ```
----
-#### 5. **Polymorphism**
+### 5. Polymorphism:
 - Objects of different classes can be treated as instances of the same superclass but behave differently.
 - **Overriding**: Redefining a method in a subclass.
 - **Overloading**: Methods with the same name but different parameter lists.
@@ -74,8 +68,7 @@ class Biography(Book):
     def info(self):
         return "This is a biography."
 ```
----
-### **Advantages of OOP**
+### Advantages of OOP:
 1. **Reusability**:
     - Classes can be reused across multiple projects.
     - Inheritance and polymorphism reduce redundancy.
@@ -87,16 +80,14 @@ class Biography(Book):
     - Modular design makes updates straightforward.
 5. **High Abstraction**:
     - Programmers focus on higher-level logic rather than implementation details.
----
-### **Disadvantages of OOP**
+### Disadvantages of OOP:
 1. **Steep Learning Curve**:
     - Requires a different mindset for programmers used to procedural paradigms.
 2. **Overhead**:
     - Increased complexity for small or simple problems.
 3. **Design-Intensive**:
     - Requires detailed planning before implementation.
----
-### **Example: Pseudocode for Book Class**
+### Example: Pseudocode for Book Class:
 ```
 class Book:
     private reserved

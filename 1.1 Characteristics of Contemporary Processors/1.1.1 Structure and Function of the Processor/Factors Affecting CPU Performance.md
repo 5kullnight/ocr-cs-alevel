@@ -1,13 +1,12 @@
-1. **Clock Speed**
-    - **Definition**: Clock speed refers to how fast the CPU can process instructions. It is determined by the **system clock**, which switches between 0 and 1 to generate pulses. Each CPU operation starts on a clock pulse.
-    - **Unit**: Measured in **Hertz (Hz)**, typically GHz (billions of cycles per second).
-    - **Impact**:
-        - A higher clock speed means faster processing of instructions.
-        - Example: A CPU with a clock speed of **3.2 GHz** completes **3.2 billion cycles per second**.
-        - Limitation: Higher speeds can cause overheating, requiring better cooling.
----
-2. **Number of Cores**
-    - **Definition**: A core is an independent processing unit within the CPU. Each core can execute its own **fetch-decode-execute cycle** simultaneously.
+# 1. Clock Speed:
+**Definition**: Clock speed refers to how fast the CPU can process instructions. It is determined by the **system clock**, which switches between 0 and 1 to generate pulses. Each CPU operation starts on a clock pulse.
+- **Unit**: Measured in **Hertz (Hz)**, typically GHz (billions of cycles per second).
+- **Impact**:
+	- A higher clock speed means faster processing of instructions.
+	- Example: A CPU with a clock speed of **3.2 GHz** completes **3.2 billion cycles per second**.
+	- Limitation: Higher speeds can cause overheating, requiring better cooling.
+# 2. Number of Cores:
+- **Definition**: A core is an independent processing unit within the CPU. Each core can execute its own **fetch-decode-execute cycle** simultaneously.
     - **Impact**:
         - More cores mean the CPU can handle multiple instructions at the same time.
         - Example:
@@ -15,9 +14,8 @@
             - A **quad-core** processor can handle **4 tasks**.
     - **Limitation**: Performance gains depend on software optimization. Some programs are not designed to use multiple cores efficiently.
 	    - For example, a **Minecraft server** can run on multiple cores, but its performance may not fully utilize them. Many Minecraft server operations are single-threaded, meaning that only one core handles certain tasks, like world generation or player interactions. While some tasks can be distributed across multiple cores (like handling multiple players), the core gameplay mechanics and world updates can bottleneck performance, resulting in limited gains from additional cores. This illustrates how software design impacts the ability to leverage multicore architectures effectively.
----
-3. **Cache Memory**
-    - **Definition**: Cache memory is a small amount of high-speed memory located inside the CPU. It stores frequently used instructions to improve processing speed.
+# 3. Cache Memory:
+- **Definition**: Cache memory is a small amount of high-speed memory located inside the CPU. It stores frequently used instructions to improve processing speed.
     - **Impact**:
         - Reduces the time needed to access data from main memory (RAM).
         - Larger or faster cache allows quicker data access.
@@ -35,8 +33,7 @@
         - **Level 3 (L3)**:
             - **Description**: L3 cache is even larger (ranging from several megabytes to tens of megabytes) and slower than L1 and L2. It is often shared among multiple CPU cores.
 			- **Example**: Think of L3 cache as a large library shared among several assistants. If the personal assistant and the filing cabinet don’t have the needed information, they can send a request to the library (L3 cache). While it's slower than getting the information from the personal assistant or filing cabinet, it’s still quicker than retrieving it from an external source (RAM).
----
-### **Real-World Example: A Gaming CPU**
+### Real-World Example: A Gaming CPU:
 1. **Clock Speed**: A gaming CPU with **4.5 GHz** handles intensive calculations for graphics and physics quickly.
 2. **Cores**: A **6-core** CPU allows running the game, streaming software, and background tasks simultaneously.
 3. **Cache Memory**:
