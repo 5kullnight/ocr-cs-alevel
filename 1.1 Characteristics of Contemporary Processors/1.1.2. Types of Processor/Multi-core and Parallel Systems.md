@@ -5,6 +5,7 @@ Modern computers typically have **multicore CPUs** and often include parallel pr
     **Example**:
     - A quad-core processor can handle four tasks simultaneously, such as rendering a video, running a browser, and gaming.
 2. **Parallel Systems**:
+    - Multiple processors in the same computer.
     - Use **threading** within a single core to handle tasks as if running simultaneously.
     - **Benefit**: Efficient for simpler repetitive tasks where dividing cores isn’t necessary.
     **Example**:
@@ -14,15 +15,11 @@ Modern computers typically have **multicore CPUs** and often include parallel pr
 	- **Parallel systems** can be likened to multiple assembly lines running simultaneously, each handling different products (tasks) concurrently.
 # Graphics Processing Unit (GPU):
 - **Purpose**:
-	- In the early days of computing, CPUs struggled to handle the increasing demands of graphics rendering and complex mathematical computations needed for 3D graphics. As video games and graphic applications grew more sophisticated, dedicated graphics cards emerged to offload these tasks. This led to the development of GPUs, which excelled at parallel processing and could perform numerous calculations simultaneously. Over time, GPUs evolved from specialized graphics processors to powerful coprocessors, complementing CPUs and significantly enhancing performance in not only graphics but also scientific computing, machine learning, and artificial intelligence.
     - Designed for **parallel processing**, making it ideal for repetitive, computation-heavy tasks like **graphics rendering**, **image processing**, or **machine learning**.
     - Works as a **co-processor** to assist the CPU.
 - **How It Works**:
     - Unlike a CPU with a few cores, GPUs have thousands of smaller processors working together.
     - This makes them highly effective for tasks that can be broken down into smaller operations performed simultaneously.
-**Example**:
-- **Gaming**: Rendering complex 3D environments.
-- **AI and Machine Learning**: Training models quickly by processing large datasets in parallel.
 ### **Key Difference**
 
 |**Aspect**|**Multi-Core Systems**|**Parallel Systems**|**GPU**|

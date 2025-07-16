@@ -1,53 +1,12 @@
-# Complex Instruction Set Computers (CISC):
-- **Characteristics**:
-    - Uses a **large instruction set**, more complex
-    - Each instruction can accomplish **complex tasks** in fewer lines of code.
-    - Many instructions are built into the hardware, even if they’re rarely used.
-- **Advantages**:
-    - **Shorter code**, so less RAM is required.
-    - The **compiler has less work** to translate high-level code into machine code.
-- **Disadvantage**:
-    - **Pipelining is less efficient** since instructions vary in execution time.
-    - More transistors used for storing complex instructions
-# Reduced Instruction Set Computers (RISC):
-- **Characteristics**:
-    - Uses a **small instruction set**, less complex
-    - Each instruction takes **one clock cycle** to execute.
-    - Instructions are simple and written as **single lines of machine code**.
-- **Advantages**:
-    - **Pipelining is efficient** because all instructions are uniform in execution time.
-    - Ideal for performance-critical tasks like gaming or multimedia applications.
-- **Disadvantage**:
-    - Requires **more RAM** since code is longer.
-    - More transistors used for memory registers
-### Modern processors often mix characteristics:
-- **CISC Processors** (e.g., x86) use **RISC-like microoperations** internally to improve efficiency.
-- **RISC Processors** (e.g., ARM) include more complex instructions for specific tasks to reduce software overhead.
-### 1. Intel and AMD Processors (x86 Architecture):
-- **Processor Examples**:
-    - Intel Core i9, AMD Ryzen 9.
-- **CISC by Design, RISC-Like Internally**:
-    - x86 processors use a **CISC instruction set**, which includes complex instructions.
-    - Internally, these instructions are broken down into smaller, simpler **micro-operations (µops)**, resembling RISC-style instructions.
-    - The use of **out-of-order execution** and **pipelining** is heavily influenced by RISC principles to improve efficiency.
-### 2. Apple M-Series Processors (M1, M2):
-- **RISC at its Core with Advanced Features**:
-    - These ARM-based processors are RISC by design but integrate features that allow them to execute certain tasks in fewer steps, bridging some complexity seen in CISC.
-    - **Unified Memory Architecture (UMA)** and advanced optimizations blur the RISC-CISC divide.
-### In summary:
-- **RISC**: Dominates mobile and low-power applications.
-- **CISC**: Still strong in general-purpose computing and high-performance systems.
-### Comparison Table:
 
-| **Aspect**            | **RISC Processors**             | **CISC Processors**        |
-| --------------------- | ------------------------------- | -------------------------- |
-| **Instruction Set**   | Small, simple                   | Large, complex             |
-| **Execution Time**    | One clock cycle per instruction | Varies by instruction      |
-| **Code Length**       | Longer (more lines)             | Shorter                    |
-| **RAM Requirement**   | More (stores longer code)       | Less (stores compact code) |
-| **Compiler Workload** | High (simplifies complex tasks) | Low                        |
-| **Pipelining**        | Highly efficient                | Less efficient             |
-
-### How to Remember:
-- **RISC**: **"Reduced and Repeated"** – Fewer instructions, executed fast, but takes more memory.
-- **CISC**: **"Complex and Compact"** – Handles complex tasks in fewer lines but slower execution overall.
+| Reduced Instruction Set Computers (RISC) ARM                                              | Complex Instruction Set Computers (CISC) x86                                         |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Fewer bits allocated to the operation code, so uses a small instruction set, less complex | More bits allocated to operation code, so uses a large instruction set, more complex |
+| Each instruction takes **one clock cycle** to execute.                                    | Each instruction can accomplish **complex tasks** in fewer lines of code.            |
+| Instructions are simple and written as single lines of machine code.                      | Many instructions are built into the hardware, even if they’re rarely used.          |
+| **Advantages and Disadvantages**                                                          |                                                                                      |
+| Requires more RAM since code is longer.                                                   | Shorter code, so less RAM is required.                                               |
+| Ideal for performance-critical tasks like gaming or multimedia applications.              | The compiler has less work to translate high-level code into machine code.           |
+| Pipelining is efficient because all instructions are uniform in execution time.           | Pipelining is less efficient since instructions vary in execution time.              |
+| More transistors used for memory registers                                                | More transistors used for storing complex instructions                               |
+| Assembly language programmers have more work to do.                                       | Easier for assembly language programmers.                                            |
