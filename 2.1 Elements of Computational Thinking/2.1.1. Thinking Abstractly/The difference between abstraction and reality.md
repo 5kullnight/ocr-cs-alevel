@@ -1,7 +1,7 @@
 Abstraction is a simplified representation of reality. Real-world entities may be represented using computational structures such as tables and databases. Real-world values are often stored as variables. Object-oriented programming makes use of objects, which are also an abstraction for real-world entities. In object-oriented programming, abstraction considers the functionality, interface, and properties of entities. Attributes are an abstraction for the characteristics of an object, while methods are an abstraction for the actions a real-world object is able to perform.
 
 ---
-### Devise an Abstract Model for a Variety of Situations
+# Devise an Abstract Model for a Variety of Situations
 When devising an abstract model given a scenario, you must consider:
 - **What is the problem that needs to be solved by the model?**  
     Can the problem be solved computationally? What are the key features of the problem?

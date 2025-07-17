@@ -14,5 +14,5 @@ These would then be broken down further, as shown:
 3. **Enemies**
     - Enemies’ interactions
     - Enemies’ appearance
-Problems are commonly decomposed using **top-down design**, also known as **stepwise refinement**. This is the preferred method used to approach very large problems, as it breaks problems down into levels. Higher levels provide an overview of a problem, while lower levels specify in detail the components of this problem.
+Problems are commonly decomposed using **top-down design**, also known as stepwise refinement. This is the preferred method used to approach very large problems, as it breaks problems down into levels. Higher levels provide an overview of a problem, while lower levels specify in detail the components of this problem.
 The aim of using top-down design is to keep splitting problems into subproblems until each subproblem can be represented as a single task and ideally a self-contained module or subroutine. Each task can then be solved and developed as a subroutine by a different person. Once programmed, subroutines can also be tested separately before being brought together and finally integrated.
