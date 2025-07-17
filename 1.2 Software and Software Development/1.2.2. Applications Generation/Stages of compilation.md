@@ -1,6 +1,4 @@
 When high-level code is compiled into object code ready for execution, it undergoes four distinct stages: Lexical Analysis, Syntax Analysis, Code Generation, and Optimisation. Each stage plays a crucial role in ensuring the accuracy and efficiency of the final machine code.
-
-"Lazy Snakes Can Optimise"
 # 1. Lexical Analysis:
 - **Lexical** = "Lexicon" = Words. This stage reduces your code to basic vocabulary tokens. Cleans it up like a spellchecker before grammar checking.
 - **Purpose**: The primary function of this stage is to prepare the code for analysis by removing unnecessary elements.

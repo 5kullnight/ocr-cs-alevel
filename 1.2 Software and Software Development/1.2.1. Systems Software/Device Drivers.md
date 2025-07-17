@@ -1,4 +1,4 @@
-Device drivers are essential software components that enable communication between the operating system (OS) and hardware devices.
+- **Description**: Device drivers are essential software components that enable communication between the operating system (OS) and hardware devices.
 # Purpose and Functionality:
 - **Communication**: Drivers translate commands from the OS to the hardware, allowing devices to perform tasks as intended.
 - **Hardware-Specific**: Each hardware device, such as keyboards, printers, or GPUs, requires a specific driver for functionality.

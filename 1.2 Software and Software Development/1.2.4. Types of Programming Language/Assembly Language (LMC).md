@@ -1,6 +1,6 @@
 Assembly language is a low-level programming language that serves as an abstraction over machine code. It provides a way to write instructions using mnemonics, which are easier to understand and remember compared to binary machine code.
 When executed, an **assembler** translates the assembly code into machine code specific to the processor.
-### Key Features of Assembly Language:
+# Key Features of Assembly Language:
 1. **Use of Mnemonics**:
     - Human-readable instructions like `ADD`, `SUB`, and `LDA` replace binary machine code.
     - Each mnemonic corresponds to a specific processor instruction.
@@ -12,7 +12,7 @@ When executed, an **assembler** translates the assembly code into machine code s
     - Commonly used in **embedded systems** and **low-level programming**.
 4. **1-to-1 Correspondence**:
     - Typically, each assembly instruction translates to one machine code instruction.
-### Assembly Mnemonics:
+# Assembly Mnemonics:
 
 |**Mnemonic**|**Instruction**|**Function**|
 |---|---|---|
@@ -28,9 +28,9 @@ When executed, an **assembler** translates the assembly code into machine code s
 |**BRP**|Branch if Positive|Branches to a given address if the Accumulator value is positive (conditional).|
 |**BRA**|Branch Always|Branches to a given address unconditionally.|
 
-### Example Program: Modulus Calculation:
+# Example Program: Modulus Calculation:
 The following example calculates the remainder when **num1** is divided by **num2** using the Little Man Computer (LMC) model.
-#### **Code Breakdown**
+#### Code Breakdown
 `INP         // Input first number`
 `STA num1    // Store it at 'num1'`
 `INP         // Input second number`
@@ -44,24 +44,15 @@ The following example calculates the remainder when **num1** is divided by **num
 `HLT         // Halt the program`
 `num1 DAT    // Declare memory location for 'num1'`
 `num2 DAT    // Declare memory location for 'num2'`
-#### Execution Flow:
-1. **Input and Storage**:
-    - User inputs two numbers: `num1` and `num2`.
-2. **Repeated Subtraction**:
-    - Subtract `num2` from `num1` repeatedly until the result is less than zero.
-3. **Output Remainder**:
-    - The final value in `num1` is the remainder, which is output.
-4. **Halt**:
-    - The program terminates.
-### Advantages of Assembly Language:
+# Advantages of Assembly Language:
 - **Efficient**: Directly manipulates hardware for maximum performance.
 - **Precise Control**: Fine-tunes system operations, such as memory and CPU management.
 - **Essential for Embedded Systems**: Enables interaction with specific hardware components.
-### Disadvantages:
+# Disadvantages:
 - **Processor Dependence**: Code must be rewritten for different CPU architectures.
 - **Complexity**: Harder to write, debug, and maintain compared to high-level languages.
 - **Low Productivity**: More time-consuming due to detailed and verbose code.
-### Use Cases:
+# Use Cases:
 - **Embedded Systems**: Firmware for microcontrollers in devices like washing machines and thermostats.
 - **Performance-Critical Applications**: Optimizing tasks in game engines or real-time systems.
 - **Operating Systems**: Writing or tweaking kernel-level code.

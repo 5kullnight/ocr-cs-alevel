@@ -1,5 +1,5 @@
-An operating system (OS) is a collection of programs that acts as an interface between the user and the computer, managing hardware, software, and system resources.
-### Key Functions:
+- **Description**: a collection of programs that acts as an interface between the user and the computer, managing hardware, software, and system resources.
+# Key Functions:
 - **Memory Management**: Paging, segmentation, and virtual memory.
 - **Resource Management**: Scheduling tasks efficiently.
 - **File Management**: Organizing, editing, and deleting files/folders.
@@ -10,9 +10,6 @@ An operating system (OS) is a collection of programs that acts as an interface b
 - **User Interface**: Interaction via graphical (GUI) or command-line interfaces.
 ---
 # Types of Operating Systems:
-
-DEMM-R
-_Dinosaurs Eat Mechanical Muffins Rapidly_
 
 1. **Distributed OS**
     - Runs across multiple devices, sharing processing loads.

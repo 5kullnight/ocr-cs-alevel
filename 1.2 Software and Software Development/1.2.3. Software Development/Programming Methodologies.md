@@ -1,4 +1,4 @@
-Software development methodologies define the process and structure for planning, designing, developing, and maintaining software. Each methodology has its own strengths and weaknesses and is suited to specific types of projects. Below is a summary of the key methodologies and their characteristics:
+ Software development methodologies define the process and structure for planning, designing, developing, and maintaining software. Each methodology has its own strengths and weaknesses and is suited to specific types of projects. Below is a summary of the key methodologies and their characteristics:
 # Software Development Life Cycle (SDLC):
 **Stages of SDLC**:
 1. **Analysis**:
@@ -21,8 +21,6 @@ Software development methodologies define the process and structure for planning
     - The system is evaluated for robustness, reliability, portability, and maintainability.
 7. **Maintenance**:
     - Updates are made to address bugs, improve performance, or fix security issues.
-
-"WAXy SPRay" (Waterfall, Agile, XP, Spiral, RAD)
 # 1. Waterfall Model:
 - **Description**: A traditional, sequential approach where each stage must be completed before the next begins.
 - **Key Features**:

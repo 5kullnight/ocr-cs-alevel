@@ -1,10 +1,10 @@
 Object-Oriented Programming (OOP) is a paradigm based on the concept of **objects**, which combine **state** (data) and **behavior** (functions or methods). This approach offers a modular structure that simplifies software development and maintenance.
 # Key Concepts in OOP:
 ### 1. Class:
-- A **class** is a blueprint or template for creating objects.
+- A **class** is a blueprint or template to define an object.
 - It defines:
-    - **Attributes**: Properties that describe the state of an object.
-    - **Methods**: Functions that define the behavior of an object.
+    - **Attributes**: Properties that describe the state of an object e.g. floors, colour.
+    - **Methods**: Functions that define the behavior of an object e.g. changeColour, changeFloors.
 Example:
 ```
 class Library:

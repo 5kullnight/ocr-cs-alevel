@@ -1,6 +1,6 @@
 Programming paradigms are frameworks or styles for writing and organizing code to solve problems. They are primarily divided into **imperative** and **declarative** paradigms, each with distinct characteristics and use cases.
 # 1. Imperative Paradigm:
-Imperative programming defines _how_ a task should be performed through a sequence of commands.
+Imperative programming defines how a task should be performed through a sequence of commands.
 ### Procedural Programming:
 - **Overview**: A type of imperative programming that structures code into procedures or functions, executed sequentially.
 - **Key Features**:

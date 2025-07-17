@@ -1,6 +1,4 @@
 When developing software, it is common to use external code such as subroutines and libraries. These external pieces of code help streamline development and enhance functionality. Linkers and loaders play essential roles in incorporating and managing this external code, while libraries provide ready-to-use functions.
-
-"Lazy Lizards Love Libraries"
 # 1. Linkers:
 **Definition**: A linker is software that combines different pieces of code (modules and libraries) into a single executable file. There are two main types of linkers:
 - **Static Linkers**:
